@@ -1,0 +1,31 @@
+@import '../helpers/mixins';
+
+// Responsiveness
+@include breakpoint(xs) {
+  html {
+    font-size: 1rem !important;
+  }
+}
+@include breakpoint(sm) {
+  html {
+    font-size: 1.050rem;
+  }
+}
+
+@include breakpoint(md) {
+  html {
+    font-size: 1.025rem;
+  }
+}
+
+@include breakpoint(lg) {
+  html {
+    font-size: 0.95rem;
+  }
+}
+
+@include breakpoint(xl) {
+  html {
+    font-size: 1rem;
+  }
+}

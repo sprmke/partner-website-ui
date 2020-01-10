@@ -1,0 +1,28 @@
+@import './colors';
+
+// Global Font
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+
+// All
+h1, h2, h3, h4, h5, h6,
+p, span, a, label, strong,
+input, textarea, small {
+    font-family: 'Open Sans', sans-serif;
+}
+
+// Headings
+h1, h2, h3, h4, h5, h6 {
+}
+
+// Paragraphs
+p {
+}
+
+// Links
+a,
+a:link,
+a:visited,
+a:active {
+}
+a:hover {
+}

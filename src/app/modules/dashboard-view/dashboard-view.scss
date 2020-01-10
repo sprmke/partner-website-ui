@@ -1,0 +1,12 @@
+// @import '@/app/styles/helpers/_colors.scss';
+// @import '@/app/styles/helpers/mixins';
+
+.dashboard-view {
+  .main-sidebar {
+    position: relative;
+    z-index: 1;
+  }
+  .main-content {
+    margin-left: 250px;
+  }
+}
